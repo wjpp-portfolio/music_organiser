@@ -1,0 +1,22 @@
+{
+	"Songs": {
+		"Drift Away": {
+			"Files": {
+				"leadsheet": "Drift Away.onsong",
+				"editable_score": "Drift Away.mscz",
+				"score": "Drift Away_score.pdf",
+				"band_mp3": "Drift Away.mp3",
+				"original_mp3": "Drift Away.mp3"
+			}
+		},
+		"Chasing Cars": {
+			"Files": {
+				"leadsheet": "Chasing Cars.onsong",
+				"editable_score": "Chasing Cars.mscz",
+				"score": "Chasing Cars.pdf",
+				"band_mp3": "",
+				"original_mp3": "Chasing Cars.mp3"
+			}
+		}
+	}
+}
