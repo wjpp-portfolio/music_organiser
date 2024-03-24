@@ -1,7 +1,34 @@
 {
-	"Songs": {
+	"songs": {
+		"Burning Love": {
+			"files": {
+				"leadsheet": "Burning Love.onsong",
+				"editable_score": "Burning_Love_score.mscz",
+				"score": "Burning_Love_score.pdf",
+				"band_mp3": "Burning Love.mp3",
+				"original_mp3": "Burning Love.mp3"
+			}
+		},
+		"Chasing Cars": {
+			"files": {
+				"leadsheet": "Chasing Cars.onsong",
+				"editable_score": "Chasing Cars.mscz",
+				"score": "Chasing Cars.pdf",
+				"band_mp3": null,
+				"original_mp3": "Chasing Cars.mp3"
+			}
+		},
+		"Dancing In The Dark": {
+			"files": {
+				"leadsheet": "Dancing In The Dark.onsong",
+				"editable_score": "Dancing_in_the_Dark_score.mscz",
+				"score": "Dancing_in_the_Dark_score.pdf",
+				"band_mp3": "Dancing in the Dark.mp3",
+				"original_mp3": "Dancing In the Dark.mp3"
+			}
+		},
 		"Drift Away": {
-			"Files": {
+			"files": {
 				"leadsheet": "Drift Away.onsong",
 				"editable_score": "Drift Away.mscz",
 				"score": "Drift Away_score.pdf",
@@ -9,13 +36,103 @@
 				"original_mp3": "Drift Away.mp3"
 			}
 		},
-		"Chasing Cars": {
-			"Files": {
-				"leadsheet": "Chasing Cars.onsong",
-				"editable_score": "Chasing Cars.mscz",
-				"score": "Chasing Cars.pdf",
-				"band_mp3": "",
-				"original_mp3": "Chasing Cars.mp3"
+		"Everything Is Broken": {
+			"files": {
+				"leadsheet": "Everything Is Broken.onsong",
+				"editable_score": "Everything is Broken.mscz",
+				"score": "Everything is Broken_score.pdf",
+				"band_mp3": "Everything is Broken.mp3",
+				"original_mp3": "Everything is Broken.mp3"
+			}
+		},
+		"Last Shot": {
+			"files": {
+				"leadsheet": "Last Shot.onsong",
+				"editable_score": "Last Shot_score.mscz",
+				"score": "Last Shot_score.pdf",
+				"band_mp3": "Last Shot.mp3",
+				"original_mp3": "Last Shot.mp3"
+			}
+		},
+		"Lets Work Together": {
+			"files": {
+				"leadsheet": "Let's Work Together.onsong",
+				"editable_score": "Let's Work Together.mscz",
+				"score": "Let's Work Together.pdf",
+				"band_mp3": null,
+				"original_mp3": "Lets work together - Canned Heat.mp3"
+			}
+		},
+		"My Girl": {
+			"files": {
+				"leadsheet": "My Girl.onsong",
+				"editable_score": "My Girl.mscz",
+				"score": "My Girl_score.pdf",
+				"band_mp3": "My Girl.mp3",
+				"original_mp3": "My Girl.mp3"
+			}
+		},
+		"One Horse Town": {
+			"files": {
+				"leadsheet": "One Horse Town.onsong",
+				"editable_score": "One_Horse_Town_score.mscz",
+				"score": "One_Horse_Town_score.pdf",
+				"band_mp3": "One Horse Town.mp3",
+				"original_mp3": "One Horse Town.mp3"
+			}
+		},
+		"Runaway": {
+			"files": {
+				"leadsheet": "Runaway.onsong",
+				"editable_score": "Runaway_score.mscz",
+				"score": "Runaway_score.pdf",
+				"band_mp3": "Runaway.mp3",
+				"original_mp3": "Runaway.mp3"
+			}
+		},
+		"Straight To Hell": {
+			"files": {
+				"leadsheet": "Straight To Hell.onsong",
+				"editable_score": "Straight_To_Hell_score.mscz",
+				"score": "Straight_To_Hell_score.pdf",
+				"band_mp3": "Straight To Hell.mp3",
+				"original_mp3": "Straight to Hell.mp3"
+			}
+		},
+		"Take Me To The River": {
+			"files": {
+				"leadsheet": "Take Me To The River.onsong",
+				"editable_score": "Take Me To The River_score.mscz",
+				"score": "Take Me To The River_score.pdf",
+				"band_mp3": "Take Me to the River.mp3",
+				"original_mp3": "Take Me To The River.mp3"
+			}
+		},
+		"To Love Somebody": {
+			"files": {
+				"leadsheet": "To Love Somebody.onsong",
+				"editable_score": "To_Love_Somebody_score.mscz",
+				"score": "To_Love_Somebody_score.pdf",
+				"band_mp3": "To Love Somebody.mp3",
+				"original_mp3": "To Love Somebody.mp3"
+			}
+		},
+		"Wagon Wheel": {
+			"files": {
+				"leadsheet": "Wagon Wheel.onsong",
+				"editable_score": "Wagon_Wheel_score.mscz",
+				"score": "Wagon_Wheel_score.pdf",
+				"band_mp3": "Wagon Wheel.mp3",
+				"original_mp3": "Wagon Wheel.mp3"
+			}
+		},
+		"Wicked Game": {
+			"files": {
+				"leadsheet": "Wicked Game.onsong",
+				"editable_score": "Wicked Game_score.mscz",
+				"score": "Wicked Game_score.pdf",
+				"band_mp3": "Wicked Game.mp3",
+				"original_mp3": "Wicked Game.mp3"
 			}
 		}
 	}
