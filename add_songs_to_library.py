@@ -84,16 +84,16 @@ def get_file_choice(search_term, search_location):
             print(f'{i+1}. {j}')
 
         choice = input('Which item? ')
-
-        return l[int(choice)-1]
+        if int(choice):
+            return l[int(choice)-1]
+        else:
+            return None
 
 def write_to_library(song_name, title_map):
     d = { song_name: {'files': title_map}}
 
     with open(LIBRARY_PATH) as file_read:
         json_data = json.load(file_read)
-
- 
  
     if song_name in json_data['songs']:
         print(f'ERROR: {song_name} already exists as a song name')
@@ -105,23 +105,37 @@ def write_to_library(song_name, title_map):
     with open(LIBRARY_PATH, 'w') as file_write:
        json.dump(json_data, file_write)
 
-search_term = input('Enter search term: ')
+def format_song_name(name) -> str:
+    temp = name.split(' ')
+    new = ''
+    for i, j in enumerate(temp):
+        new += j.capitalize()
+        if i < len(temp) - 1:
+            new += ' '
+    new = new.replace("'", '')
+    new = new.replace("!", '')
+    new = new.replace("?", '')
+    return new
 
-mapping = {}
-for k in LOCATION_MAP.keys():
-    print(f'----- {k} -----')
-    search_location = os.path.join(NETWORK_PATH, LOCATION_MAP[k])
-    mapping[k] = get_file_choice(search_term, search_location)
+while True:
+    search_term = input('Enter search term: ')
 
-song_name = input('Enter song name for library: ')
-print('')
-print(f'### {song_name} ###')
-print('')
-for k in mapping.keys():
-    print(f'{mapping[k]}')
+    mapping = {}
+    for k in LOCATION_MAP.keys():
+        print(f'----- {k} -----')
+        search_location = os.path.join(NETWORK_PATH, LOCATION_MAP[k])
+        mapping[k] = get_file_choice(search_term, search_location)
 
-write = input('Write to library (y/n): ')
+    song_name = format_song_name(input('Enter song name for library: '))
 
-if 'y' in write:
     print('')
-    write_to_library(song_name, mapping)
+    print(f'### {song_name} ###')
+    print('')
+    for k in mapping.keys():
+        print(f'{mapping[k]}')
+
+    write = input('Write to library (y/n): ')
+
+    if 'y' in write:
+        print('')
+        write_to_library(song_name, mapping)

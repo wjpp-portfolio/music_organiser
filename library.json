@@ -134,6 +134,267 @@
 				"band_mp3": "Wicked Game.mp3",
 				"original_mp3": "Wicked Game.mp3"
 			}
+		},
+		"Freedom": {
+			"files": {
+				"leadsheet": "Freedom.onsong",
+				"editable_score": "Freedom.mscz",
+				"score": "Freedom.pdf",
+				"band_mp3": null,
+				"original_mp3": "Freedom (George M).mp3"
+			}
+		},
+		"Get Ready": {
+			"files": {
+				"leadsheet": "Get Ready.onsong",
+				"editable_score": "Get Ready.mscz",
+				"score": "Get Ready.pdf",
+				"band_mp3": null,
+				"original_mp3": "Get Ready - Temptations.mp3"
+			}
+		},
+		"Gimme Some Lovin": {
+			"files": {
+				"leadsheet": "Gimme Some Lovin'.onsong",
+				"editable_score": "Gimme Some Lovin.mscz",
+				"score": "Gimme Some Lovin.pdf",
+				"band_mp3": null,
+				"original_mp3": "Gimme some loving (Blues brothers).mp3"
+			}
+		},
+		"Have You Ever Seen The Rain": {
+			"files": {
+				"leadsheet": "Have You Ever Seen The Rain.onsong",
+				"editable_score": "Have_You_Ever_Seen_The_Rain_score.mscz",
+				"score": "Have_You_Ever_Seen_The_Rain_score.pdf",
+				"band_mp3": "Have You Ever Seen The Rain.mp3",
+				"original_mp3": "Have you ever seen the rain.mp3"
+			}
+		},
+		"Hit Me With Your Best Shot": {
+			"files": {
+				"leadsheet": "Hit Me With Your Best Shot.onsong",
+				"editable_score": "Hit Me With Your Best Shot.mscz",
+				"score": "Hit Me With Your Best Shot.pdf",
+				"band_mp3": null,
+				"original_mp3": "Hit me with your best shot.mp3"
+			}
+		},
+		"Honky Tonk Woman": {
+			"files": {
+				"leadsheet": "Honky Tonk Women.onsong",
+				"editable_score": "Honky_Tonk_Woman_score.mscz",
+				"score": "Honky_Tonk_Woman_score.pdf",
+				"band_mp3": "Honky Tonk Woman.mp3",
+				"original_mp3": "Honky Tonk Woman.mp3"
+			}
+		},
+		"Im A Believer": {
+			"files": {
+				"leadsheet": "I'm A Believer.onsong",
+				"editable_score": "I'm_a_Believer_score.mscz",
+				"score": "I'm_a_Believer_score.pdf",
+				"band_mp3": "Im A Believer.mp3",
+				"original_mp3": "Im a Believer.mp3"
+			}
+		},
+		"Jumpin Jack Flash": {
+			"files": {
+				"leadsheet": "Jumpin' Jack Flash.onsong",
+				"editable_score": "Jumpin'_Jack_Flash_score.mscz",
+				"score": "Jumpin'_Jack_Flash_score.pdf",
+				"band_mp3": "Jumpin Jack Flash.mp3",
+				"original_mp3": "Jumpin Jack Flash.mp3"
+			}
+		},
+		"Keep On Running": {
+			"files": {
+				"leadsheet": "Keep On Running.onsong",
+				"editable_score": "Keep On Running.mscz",
+				"score": "Keep On Running.pdf",
+				"band_mp3": null,
+				"original_mp3": "Keep On Running.mp3"
+			}
+		},
+		"Nutbush City Limits": {
+			"files": {
+				"leadsheet": "Nutbush City Limits.onsong",
+				"editable_score": "Nutbush_City_Limits_score.mscz",
+				"score": "Nutbush_City_Limits_score.pdf",
+				"band_mp3": "Nutbush.mp3",
+				"original_mp3": "Nutbush City Limits.mp3"
+			}
+		},
+		"Proud Mary": {
+			"files": {
+				"leadsheet": "Proud Mary.onsong",
+				"editable_score": "Proud_Mary_score.mscz",
+				"score": "Proud_Mary_score.pdf",
+				"band_mp3": "Proud Mary.mp3",
+				"original_mp3": "Proud Mary.mp3"
+			}
+		},
+		"Swallowed": {
+			"files": {
+				"leadsheet": "Swallowed.onsong",
+				"editable_score": "Swallowed.mscz",
+				"score": "Swallowed.pdf",
+				"band_mp3": null,
+				"original_mp3": "Swallowed - Bush.mp3"
+			}
+		},
+		"Sweet Home Alabama": {
+			"files": {
+				"leadsheet": "Sweet Home Alabama.onsong",
+				"editable_score": "Sweet_Home_Alabama_score.mscz",
+				"score": "Sweet_Home_Alabama_score.pdf",
+				"band_mp3": "Sweet Home Alabama.mp3",
+				"original_mp3": "Sweet Home Alabama.mp3"
+			}
+		},
+		"Sympathy For The Devil": {
+			"files": {
+				"leadsheet": "Sympathy For The Devil.onsong",
+				"editable_score": "Sympathy_For_The_Devil_score.mscz",
+				"score": "Sympathy_For_The_Devil_score.pdf",
+				"band_mp3": "Sympathy For The Devil Take 2.mp3",
+				"original_mp3": "Sympathy For The Devil - MOJOs KEY - D.mp3"
+			}
+		},
+		"Word Up": {
+			"files": {
+				"leadsheet": "Word Up!.onsong",
+				"editable_score": "Word Up.mscz",
+				"score": "Word Up.pdf",
+				"band_mp3": null,
+				"original_mp3": "Word Up - Cameo.mp3"
+			}
+		},
+		"Heroes": {
+			"files": {
+				"leadsheet": "Heroes.onsong",
+				"editable_score": "Heros_score.mscz",
+				"score": "Heros_score.pdf",
+				"band_mp3": "Heros.mp3",
+				"original_mp3": "Heros.mp3"
+			}
+		},
+		"Hi Ho Silver Lining": {
+			"files": {
+				"leadsheet": "Hi Ho Silver Lining.onsong",
+				"editable_score": "Hi_Ho_Silver_Lining_score.mscz",
+				"score": "Sweet_Caroline_and_Hi_Ho_Silver_Lining_score.pdf",
+				"band_mp3": "Sweet Caroline & Hi Ho Silver Lining.mp3",
+				"original_mp3": "Hi Ho Silver Lining.mp3"
+			}
+		},
+		"Louie Louie": {
+			"files": {
+				"leadsheet": "Louie Louie.onsong",
+				"editable_score": "Louie Louie.mscz",
+				"score": "Louie Louie.pdf",
+				"band_mp3": null,
+				"original_mp3": "Louie Louie.mp3"
+			}
+		},
+		"Mustang Sally": {
+			"files": {
+				"leadsheet": "Mustang Sally.onsong",
+				"editable_score": "Mustang_Sally_score.mscz",
+				"score": "Mustang_Sally_score.pdf",
+				"band_mp3": "Mustang Sally.mp3",
+				"original_mp3": "Mustang Sally.mp3"
+			}
+		},
+		"Sweet Caroline": {
+			"files": {
+				"leadsheet": "Sweet Caroline.onsong",
+				"editable_score": "Sweet_Caroline_score.mscz",
+				"score": "Sweet_Caroline_score.pdf",
+				"band_mp3": "Sweet Caroline.mp3",
+				"original_mp3": "Sweet Caroline.mp3"
+			}
+		},
+		"Time Warp": {
+			"files": {
+				"leadsheet": "Time Warp.onsong",
+				"editable_score": "Time_Warp_score.mscz",
+				"score": "Time_Warp_score.pdf",
+				"band_mp3": "Time Warp.mp3",
+				"original_mp3": "Time Warp.mp3"
+			}
+		},
+		"The Weight": {
+			"files": {
+				"leadsheet": "The Weight.onsong",
+				"editable_score": "The_Weight_score.mscz",
+				"score": "The_Weight_score.pdf",
+				"band_mp3": "The Weight.mp3",
+				"original_mp3": "The Weight.mp3"
+			}
+		},
+		"Wild Thing": {
+			"files": {
+				"leadsheet": "Wild Thing.onsong",
+				"editable_score": "Wild Thing.mscz",
+				"score": "Wild Thing.pdf",
+				"band_mp3": null,
+				"original_mp3": "Wild Thing - Troggs.mp3"
+			}
+		},
+		"Love Hurts": {
+			"files": {
+				"leadsheet": "Love Hurts.onsong",
+				"editable_score": "Love Hurts.mscz",
+				"score": "Love Hurts.pdf",
+				"band_mp3": null,
+				"original_mp3": "Love hurts.mp3"
+			}
+		},
+		"9 To 5": {
+			"files": {
+				"leadsheet": "9 To 5.onsong",
+				"editable_score": "9 to 5_score.mscz",
+				"score": "9 to 5_score.pdf",
+				"band_mp3": "9 to 5.mp3",
+				"original_mp3": "9 to 5 - B.mp3"
+			}
+		},
+		"Fishin In The Dark": {
+			"files": {
+				"leadsheet": "Fishin' In The Dark.onsong",
+				"editable_score": "Fishin In The Dark_score.mscz",
+				"score": "Fishin In The Dark_score.pdf",
+				"band_mp3": "Fishin in the dark.mp3",
+				"original_mp3": "Fishin in the dark.mp3"
+			}
+		},
+		"Take Me Home Country Roads": {
+			"files": {
+				"leadsheet": "Take Me Home, Country Roads.onsong",
+				"editable_score": "Take_me_Home,_Country_Roads-Mojos_score.mscz",
+				"score": "Take_me_Home,_Country_Roads-Mojos_score.pdf",
+				"band_mp3": "Country Roads.mp3",
+				"original_mp3": "Take Me Home Country Roads.mp3"
+			}
+		},
+		"You Really Got Me": {
+			"files": {
+				"leadsheet": "You Really Got Me.onsong",
+				"editable_score": "You Really Got Me_score.mscz",
+				"score": "You Really Got Me_score.pdf",
+				"band_mp3": "You really got me.mp3",
+				"original_mp3": "You Really Got Me.mp3"
+			}
+		},
+		"Times Like These": {
+			"files": {
+				"leadsheet": "Times Like These.onsong",
+				"editable_score": null,
+				"score": null,
+				"band_mp3": "Times Like These.mp3",
+				"original_mp3": null
+			}
 		}
 	}
 }
