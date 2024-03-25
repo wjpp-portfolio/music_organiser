@@ -1,11 +1,15 @@
 {
+	"config": {
+		"audio": ["band_mp3", "original_mp3"],
+		"visual": ["leadsheet", "score"]
+	},
 	"songs": {
 		"Burning Love": {
 			"files": {
 				"leadsheet": "Burning Love.onsong",
 				"editable_score": "Burning_Love_score.mscz",
 				"score": "Burning_Love_score.pdf",
-				"band_mp3": "Burning Love.mp3",
+				"band_mp3": "Burning Love take 2.mp3",
 				"original_mp3": "Burning Love.mp3"
 			}
 		},
@@ -390,9 +394,9 @@
 		"Times Like These": {
 			"files": {
 				"leadsheet": "Times Like These.onsong",
-				"editable_score": null,
-				"score": null,
-				"band_mp3": "Times Like These.mp3",
+				"editable_score": "Times Like These.mscz",
+				"score": "Times Like These.pdf",
+				"band_mp3": "Times Like These 2.mp3",
 				"original_mp3": null
 			}
 		}
