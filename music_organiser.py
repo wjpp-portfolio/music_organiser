@@ -15,24 +15,45 @@ def format_song_name(name: str) -> str:
     new = new.replace("?", '')
     return new
 
+def copy_file(index: int, full_file_path: str, file_type: str, collection: str, setlist_name_no_extension: str):
+    if not full_file_path:
+        return
+    else:
+        numbered_file_name = f'{index + 1:02d} {os.path.basename(full_file_path)}'
+        destination_numbered_file_path = os.path.join(DESTINATION_FOLDER, file_type, setlist_name_no_extension, collection, numbered_file_name)
+        pathlib.Path(os.path.join(DESTINATION_FOLDER, file_type, setlist_name_no_extension, collection)).mkdir(parents=True, exist_ok=True)
+        shutil.copy(full_file_path, destination_numbered_file_path)
+
+def identify_file(media_type: str, fallback_media_type: str, song_library: dict, song_name: str) -> str:
+
+    if song_library['songs'][song_name]['files'][media_type]:
+        track_type = media_type
+        song_name_inc_ext = song_library['songs'][song_name]['files'][media_type]
+    else:
+        print(f'WARNING: {media_type} for {song_name} is missing.')
+        if fallback_media_type and song_library['songs'][song_name]['files'][fallback_media_type]:
+            track_type = fallback_media_type
+            song_name_inc_ext = song_library['songs'][song_name]['files'][fallback_media_type]
+        else:
+            return ''
+        
+    file_path = os.path.join(NETWORK_PATH, song_library['config']['file_locations'][track_type], song_name_inc_ext)
+    if test_path(file_path):
+        return file_path
+    else:
+        print(f'{file_path} does not exist')
+        return ''
+        
 
 DESTINATION_FOLDER = r'C:\Users\will\Desktop\song_export'
 NETWORK_PATH = r'Z:\Will\Music'
-LOCATION_MAP = {
-    'leadsheet': r'Scores\Mojos Onsong lead sheets',
-    'editable_score': r'Scores\MuseScore scores',
-    'score': r'Scores\Score PDF Exports',
-    'band_mp3': r'Recordings\Smoking Mojos',
-    'original_mp3': r'Recordings\Originals'
-    }
+LIBRARY = 'library.json'
 
-errors = []
-song_library_path = os.path.join(os.path.dirname(__file__), 'library.json')
+song_library_path = os.path.join(os.path.dirname(__file__), LIBRARY)
 
 #read library json
 with open(song_library_path) as file_read:
     song_library = json.load(file_read)
-
 
 search_location = os.path.join(os.path.dirname(__file__), 'Sets')
 
@@ -49,42 +70,15 @@ for setlist_filename in os.listdir(search_location):
             for line in file_read:
                 setlist.append(line.rstrip("\n"))
 
-        #create folder structure
-
-        for t in LOCATION_MAP.keys():
-            if t in song_library['config']['audio']:
-                media_type = 'audio'
-            elif t in song_library['config']['visual']:
-                media_type = 'visual'
-            else:
-                continue
-            pathlib.Path(os.path.join(DESTINATION_FOLDER, media_type, setlist_name_no_extension, t)).mkdir(parents=True, exist_ok=True)
-
         for index, song in enumerate(setlist):
             song = format_song_name(song)
-            print(f'processing {song}...')
+            #print(f'processing {song}...')
             if song in song_library['songs']:
-                for i in song_library['songs'][song]['files']:
-                    mt = [k for k,v in song_library['config'].items() if i in v]
-                    if not mt:
-                        continue
 
-                    #if i in song_library['config'][media_type]:
-                    try:
-                        file_path = os.path.join(NETWORK_PATH, LOCATION_MAP[i], song_library['songs'][song]['files'][i])
-                        test_path(file_path)
-                    except:
-                        errors.append(f'{i} for {song} does not exist')
-                        continue
+                copy_file(index, identify_file('score', 'leadsheet', song_library, song), 'visual', 'scores', setlist_name_no_extension)
+                copy_file(index, identify_file('leadsheet', '', song_library, song), 'visual', 'leadsheets', setlist_name_no_extension)
+                copy_file(index, identify_file('band_mp3', 'original_mp3', song_library, song), 'audio', 'band', setlist_name_no_extension)
+                copy_file(index, identify_file('original_mp3', '', song_library, song), 'audio', 'originals', setlist_name_no_extension)
 
-                    numbered_file_name = f'{index + 1:02d} {os.path.basename(file_path)}'
-
-                    destination_numbered_file_path = os.path.join(DESTINATION_FOLDER, mt[0], setlist_name_no_extension, i, numbered_file_name)
-                    shutil.copy(file_path, destination_numbered_file_path)
-                    
             else:
-                errors.append(f'The song {song} is not in the library')
-
-print('')
-for e in errors:
-    print(e)
+                print(f'The song {song} is not in the library')

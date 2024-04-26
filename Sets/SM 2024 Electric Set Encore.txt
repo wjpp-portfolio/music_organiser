@@ -1,8 +1,6 @@
 heroes
-hi ho silver lining
-louie louie
+louie louie + wild thing
 mustang sally
-sweet caroline
+sweet caroline + hi ho silver lining
 time warp
 the weight
-wild thing

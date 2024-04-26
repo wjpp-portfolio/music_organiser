@@ -1,7 +1,12 @@
 {
 	"config": {
-		"audio": ["band_mp3", "original_mp3"],
-		"visual": ["leadsheet", "score"]
+		"file_locations": {
+			"leadsheet": "Scores\\Mojos Onsong lead sheets",
+			"editable_score": "Scores\\MuseScore scores",
+			"score": "Scores\\Score PDF Exports",
+			"band_mp3": "Recordings\\Smoking Mojos",
+			"original_mp3": "Recordings\\Originals"
+		}
 	},
 	"songs": {
 		"Burning Love": {
@@ -399,6 +404,25 @@
 				"band_mp3": "Times Like These 2.mp3",
 				"original_mp3": null
 			}
+		},
+		"Sweet Caroline + Hi Ho Silver Lining": {
+			"files": {
+				"leadsheet": null,
+				"editable_score": null,
+				"score": "Sweet_Caroline_and_Hi_Ho_Silver_Lining_score.pdf",
+				"band_mp3": "Sweet Caroline & Hi Ho Silver Lining.mp3",
+				"original_mp3": null
+			}
+		},
+		"Louie Louie + Wild Thing": {
+			"files": {
+				"leadsheet": null,
+				"editable_score": null,
+				"score": "Louie Louie & Wild Thing.pdf",
+				"band_mp3": null,
+				"original_mp3": null
+			}
 		}
+		
 	}
 }
