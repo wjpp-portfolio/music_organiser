@@ -1,0 +1,71 @@
+#Song name is unique, if 2 songs have the same name then add each as a different version and mark as original with no references
+#Covers should identify which version of this song that it references
+#The 'Artist' isnt actually that, rather a friendly descriptor and can be anything, e.g. 'Mojos drop D'
+Burning Love: 
+  versions:
+    Elvis Presley:
+      original: true
+      references:
+      key: CMaj
+      files:
+        recording: Burning Love.mp3
+        leadsheets:
+        scores:
+    Mojos: 
+      original: false
+      references: Elvis Presley
+      key: CMaj
+      files:
+        recording: Burning Love.mp3
+        leadsheets:
+          1: Burning Love.onsong
+        scores:
+          1: Burning_Love_score.mscz
+          2: Burning_Love_score.pdf
+Hysteria:
+  versions:
+    Muse:
+      original: true
+      references:
+      key: Amin
+      files:
+        recording: Hysteria - Muse.mp3
+        leadsheets:
+        scores:
+          1: Hysteria.pdf
+          2: Hysteria.mscz
+Faith:
+  versions:
+    George Michael:
+      original: true
+      references:
+      key: BMaj
+      files:
+        recording: Faith - George Michael.mp3
+        leadsheets:
+        scores:
+          1: Faith.pdf
+          2: Faith.mscz
+Test Song:
+  versions:
+    Jeff Michael:
+      original: true
+      references:
+      key: BMaj
+      files:
+        recording: Faith - George Michael.mp3
+        leadsheets:
+        scores:
+          1: Faith.pdf
+          2: Faith.mscz
+    Jeff Michael:
+      original: true
+      references:
+      key: BMaj
+      files:
+        recording: Faith - George Michael.mp3
+        leadsheets:
+        scores:
+          1: Faith.pdf
+          2: Faith.mscz
+    

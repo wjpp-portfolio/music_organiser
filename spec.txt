@@ -1,0 +1,33 @@
+# Purpose
+To easily collate relevant files for rehersal and gigging
+
+## Functionality
+- Create setlists
+- Export files for setlists
+- Save and retrieve setlists
+- Edit setlists
+- Add song(s) to library
+- Delete song(s) from library
+- Edit song(s) in library
+- Indicate when content is missing from library
+
+
+## Design considerations:
+- Maintain library health
+- Future compatability: Perhaps MuseScore is no longer available, or instead of PDF some other format makes more sense.  The app must support different and unknown softwares and file-types
+
+# Out of scope
+Use by other people
+
+# Implementation
+
+On close ask to save set-list if not saved (you can export a setlist without saving)
+
+On pressing mid 'x' while set-item is selected, remove it from set window
+On pressing mid 'x' while library-item is selected, ask to remove it from library
+
+Setlists dropdown has item 'Add New...' which will create a new set object. It will prompt for name when clicking 'Save'.  You can create a setlist without saving it
+
+Delete setlist will prompt for confirmation
+
+'Export files' will open new window with progress list.  It will display missing files and problems.  Includes button to open file directory

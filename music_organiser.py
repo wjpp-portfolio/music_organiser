@@ -72,7 +72,7 @@ for setlist_filename in os.listdir(search_location):
 
         for index, song in enumerate(setlist):
             song = format_song_name(song)
-            #print(f'processing {song}...')
+            print(f'processing {song}...')
             if song in song_library['songs']:
 
                 copy_file(index, identify_file('score', 'leadsheet', song_library, song), 'visual', 'scores', setlist_name_no_extension)

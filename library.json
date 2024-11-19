@@ -14,7 +14,7 @@
 				"leadsheet": "Burning Love.onsong",
 				"editable_score": "Burning_Love_score.mscz",
 				"score": "Burning_Love_score.pdf",
-				"band_mp3": "Burning Love take 2.mp3",
+				"band_mp3": "Burning Love.mp3",
 				"original_mp3": "Burning Love.mp3"
 			}
 		},
@@ -23,7 +23,7 @@
 				"leadsheet": "Chasing Cars.onsong",
 				"editable_score": "Chasing Cars.mscz",
 				"score": "Chasing Cars.pdf",
-				"band_mp3": null,
+				"band_mp3": "Chasing Cars.mp3",
 				"original_mp3": "Chasing Cars.mp3"
 			}
 		},
@@ -40,7 +40,7 @@
 			"files": {
 				"leadsheet": "Drift Away.onsong",
 				"editable_score": "Drift Away.mscz",
-				"score": "Drift Away_score.pdf",
+				"score": "Drift Away.pdf",
 				"band_mp3": "Drift Away.mp3",
 				"original_mp3": "Drift Away.mp3"
 			}
@@ -49,7 +49,7 @@
 			"files": {
 				"leadsheet": "Everything Is Broken.onsong",
 				"editable_score": "Everything is Broken.mscz",
-				"score": "Everything is Broken_score.pdf",
+				"score": "Everything is Broken.pdf",
 				"band_mp3": "Everything is Broken.mp3",
 				"original_mp3": "Everything is Broken.mp3"
 			}
@@ -68,15 +68,15 @@
 				"leadsheet": "Let's Work Together.onsong",
 				"editable_score": "Let's Work Together.mscz",
 				"score": "Let's Work Together.pdf",
-				"band_mp3": null,
+				"band_mp3": "Lets Work Together.mp3",
 				"original_mp3": "Lets work together - Canned Heat.mp3"
 			}
 		},
 		"My Girl": {
 			"files": {
 				"leadsheet": "My Girl.onsong",
-				"editable_score": "My Girl.mscz",
-				"score": "My Girl_score.pdf",
+				"editable_score": "My_Girl_score.mscz",
+				"score": "My_Girl_score.pdf",
 				"band_mp3": "My Girl.mp3",
 				"original_mp3": "My Girl.mp3"
 			}
@@ -144,12 +144,21 @@
 				"original_mp3": "Wicked Game.mp3"
 			}
 		},
+		"Wicked Game (acoustic)": {
+			"files": {
+				"leadsheet": "Wicked Game.onsong",
+				"editable_score": "Wicked Game_score.mscz",
+				"score": "Wicked Game_score.pdf",
+				"band_mp3": "Wicked Game_acoustic.mp3",
+				"original_mp3": "Wicked Game.mp3"
+			}
+		},
 		"Freedom": {
 			"files": {
 				"leadsheet": "Freedom.onsong",
 				"editable_score": "Freedom.mscz",
 				"score": "Freedom.pdf",
-				"band_mp3": null,
+				"band_mp3": "Freedom.mp3",
 				"original_mp3": "Freedom (George M).mp3"
 			}
 		},
@@ -158,7 +167,7 @@
 				"leadsheet": "Get Ready.onsong",
 				"editable_score": "Get Ready.mscz",
 				"score": "Get Ready.pdf",
-				"band_mp3": null,
+				"band_mp3": "Get Ready.mp3",
 				"original_mp3": "Get Ready - Temptations.mp3"
 			}
 		},
@@ -167,7 +176,7 @@
 				"leadsheet": "Gimme Some Lovin'.onsong",
 				"editable_score": "Gimme Some Lovin.mscz",
 				"score": "Gimme Some Lovin.pdf",
-				"band_mp3": null,
+				"band_mp3": "Gimme Some Lovin.mp3",
 				"original_mp3": "Gimme some loving (Blues brothers).mp3"
 			}
 		},
@@ -185,7 +194,7 @@
 				"leadsheet": "Hit Me With Your Best Shot.onsong",
 				"editable_score": "Hit Me With Your Best Shot.mscz",
 				"score": "Hit Me With Your Best Shot.pdf",
-				"band_mp3": null,
+				"band_mp3": "Hit Me With Your Best Shot.mp3",
 				"original_mp3": "Hit me with your best shot.mp3"
 			}
 		},
@@ -221,7 +230,7 @@
 				"leadsheet": "Keep On Running.onsong",
 				"editable_score": "Keep On Running.mscz",
 				"score": "Keep On Running.pdf",
-				"band_mp3": null,
+				"band_mp3": "Keep On Running.mp3",
 				"original_mp3": "Keep On Running.mp3"
 			}
 		},
@@ -230,7 +239,7 @@
 				"leadsheet": "Nutbush City Limits.onsong",
 				"editable_score": "Nutbush_City_Limits_score.mscz",
 				"score": "Nutbush_City_Limits_score.pdf",
-				"band_mp3": "Nutbush.mp3",
+				"band_mp3": "Nutbush City Limits.mp3",
 				"original_mp3": "Nutbush City Limits.mp3"
 			}
 		},
@@ -248,7 +257,7 @@
 				"leadsheet": "Swallowed.onsong",
 				"editable_score": "Swallowed.mscz",
 				"score": "Swallowed.pdf",
-				"band_mp3": null,
+				"band_mp3": "Swallowed 4.mp3",
 				"original_mp3": "Swallowed - Bush.mp3"
 			}
 		},
@@ -266,7 +275,7 @@
 				"leadsheet": "Sympathy For The Devil.onsong",
 				"editable_score": "Sympathy_For_The_Devil_score.mscz",
 				"score": "Sympathy_For_The_Devil_score.pdf",
-				"band_mp3": "Sympathy For The Devil Take 2.mp3",
+				"band_mp3": "Sympathy For The Devil.mp3",
 				"original_mp3": "Sympathy For The Devil - MOJOs KEY - D.mp3"
 			}
 		},
@@ -275,7 +284,7 @@
 				"leadsheet": "Word Up!.onsong",
 				"editable_score": "Word Up.mscz",
 				"score": "Word Up.pdf",
-				"band_mp3": null,
+				"band_mp3": "Word Up.mp3",
 				"original_mp3": "Word Up - Cameo.mp3"
 			}
 		},
@@ -417,10 +426,19 @@
 		"Louie Louie + Wild Thing": {
 			"files": {
 				"leadsheet": null,
-				"editable_score": null,
+				"editable_score": "Louie Louie & Wild Thing.mscz",
 				"score": "Louie Louie & Wild Thing.pdf",
 				"band_mp3": null,
-				"original_mp3": null
+				"original_mp3": "Louie Louie + Wild Thing.mp3"
+			}
+		},
+		"Hold On Im Coming": {
+			"files": {
+				"leadsheet": "Hold On! Im Coming.onsong",
+				"editable_score": "Hold_On_Im_Coming_score.mscz",
+				"score": "Hold_On_Im_Coming_score.pdf",
+				"band_mp3": "Hold on Im Coming.mp3",
+				"original_mp3": "Hold On Im Coming.mp3"
 			}
 		}
 		

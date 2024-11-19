@@ -1,0 +1,16 @@
+---
+#For items that share a top-level directory stucture
+
+export_destination: C:\Users\will\Desktop\song_export\
+library_toplevel_file_paths:
+  recordings: 
+    mp3: Z:\Will\Music\Recordings\Originals\
+    export_type:
+  leadsheets:
+    pdf: 
+    onsong: Z:\Will\Music\Scores\Mojos Onsong lead sheets\
+    export_type: onsong
+  scores:
+    pdf: Z:\Will\Music\Scores\Score PDF Exports\
+    mscz: Z:\Will\Music\Scores\MuseScore scores\
+    export_type: pdf
