@@ -34,10 +34,7 @@ class Model():
         self.config = yaml.safe_load(open('config.yml'))
         self.import_library()
         self.enumerate_setlists()
-
-
-
-
+        
 
     def import_library(self):
         """Takes yaml library and turns each entry to discreet Song()"""
@@ -189,8 +186,13 @@ class View(tk.Frame):
         #self.form_controls['option_setlists'].pack(side='top', fill='x', expand=False, anchor='n')
   
     def return_listbox_selected_item(self, listbox_name: str) -> str:
-        '''returns first selected item only'''
-        return self.form_controls[listbox_name].get(self.form_controls[listbox_name].curselection()[0])
+        '''returns first selected item  only'''
+        a = self.form_controls[listbox_name].curselection()
+        if a:
+            return self.form_controls[listbox_name].get(a[0])
+        else:
+            return ''
+
 
 class Controller(tk.Tk):
     def __init__(self):
