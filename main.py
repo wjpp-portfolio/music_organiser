@@ -187,9 +187,9 @@ class View(tk.Frame):
   
     def return_listbox_selected_item(self, listbox_name: str) -> str:
         '''returns first selected item  only'''
-        a = self.form_controls[listbox_name].curselection()
-        if a:
-            return self.form_controls[listbox_name].get(a[0])
+        index = self.form_controls[listbox_name].curselection()
+        if index:
+            return self.form_controls[listbox_name].get(index[0])
         else:
             return ''
 

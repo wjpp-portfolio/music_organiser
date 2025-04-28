@@ -170,7 +170,7 @@ class App(tk.Tk):
 
     def btn_add_to_setlist(self):
         library_selected_item = self.return_listbox_selected_item('lstbox_library')
-        if library_selected_item:
+        if library_selected_item and:
             self.setlists[self.form_controls['stringvar_setlists'].get()].songs.append(self.library[library_selected_item])
 
         self.populate_listview_setlist(self.setlists[self.form_controls['stringvar_setlists'].get()].songs)
